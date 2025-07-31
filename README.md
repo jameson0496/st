@@ -13,17 +13,17 @@ the /usr/local namespace by default).
 Afterwards enter the following command to build and install st (if
 necessary as root):
 
-    `make clean install`
+`make clean install`
 
 
 # Running st
 If you did not install st with make clean install, you must compile
 the st terminfo entry with the following command:
 
-    `tic -sx st.info`
+`tic -sx st.info`
 
 See the man page for additional details.
 
 # Credits
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+Based on Aurélien APTEL aurelien.aptel@gmail.com bt source code.
 
